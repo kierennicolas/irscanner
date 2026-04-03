@@ -40,7 +40,7 @@ It is intended to run on:
 
 - Linux
 - other Unix-like systems
-- RISC OS systems with an appropriate Fortran 77 compiler
+- RISC OS systems with the Acorn Norcroft Fortran compiler
 - Windows, if compiled with a suitable Fortran compiler
 
 In practice, the most straightforward targets are:
