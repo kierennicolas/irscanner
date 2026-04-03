@@ -62,14 +62,14 @@ The source also contains logic for runtimes that use word-based direct-access re
 ### Using gfortran
 
 ```sh
- gfortran -std=legacy -O2 -o irscanner irscanner_v1_9_ansi_f77.f
+ gfortran -std=legacy -O2 -o irscanner irscanner.f
 ```
 
 If you want a more self-contained Linux binary, you can also try:
 
 ```sh
  gfortran -std=legacy -O2 -static-libgfortran -static-libgcc \
-   -o irscanner irscanner_v1_9_ansi_f77.f
+   -o irscanner irscanner.f
 ```
 
 Static linking may not always be available on every system.
